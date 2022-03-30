@@ -21,10 +21,11 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-|user: "bossybrice", isActive: (true)          | 'Welcome back, bossybrice!'       | 
-|user: "merrymeredith", isActive: (false)      | 'Hey merrymeredith! Would you like to renew your subscription?'      | 
-|user: "dustydavid", isActive: (true)          | 'Welcome back, dustydavid!'       | 
+|{ isActive: true, username: "bossybrice"}     | 'Welcome back, bossybrice!'       | 
+|{ isActive: false, username: "merrymeredith"} | 'Hey merrymeredith! Would you like to renew your subscription?'      | 
+|{ isActive: true , username: "dustydavid"}    | 'Welcome back, dustydavid!'       | 
 
+{ isActive: true, username: "bossybrice"}
 <table>
   <tr>
     <th>What does this program do?</th>
